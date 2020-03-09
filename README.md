@@ -13,16 +13,21 @@ Files included in this repository that we will use:
 
 ## Setup
 ### Python setup
-1. Download python (minimum version of 3.6) from the link above; use all the default settings in the installer. 
+1. Download python (minimum version of 3.6) from the link above. In the installer, make sure you check the advanced option that says "add python to all environment variables"; otherwise, you won't be able to access it from the terminal. Alternatively, you can ad it to your PATH manually.
 1. Open command prompt/powershell/OSX Terminal/your favorite shell and type `python --version`. Make sure the printed version is at least 3.6.
 ### NumPy setup
-1. In the shell, type `python -m pip install --user numpy`.
-1. To make sure its installed correctly, type `python -c 'import numpy'`. It should execute without any output.
+1. In the shell, type `python -m pip install --user numpy`. (NOTE: this is your command prompt or terminal window, NOT the python shell!)
+1. To make sure its installed correctly, type `python -c "import numpy"`. It should execute without any output.
+### Matplotlib setup
+We will be using a graphing library called `matplotlib` in this workshop as well. This sometimes comes bundled with python installations, but if not, you can install it yourself pretty easily.
+1. In the shell, type `python -m pip install --user matplotlib`. (Again, this is NOT the python shell).
+1. Type `python -c "import matplotlib"` to make sure it installed correctly. You should not see any output.
 ### Workshop setup
 1. Clone this repository (alternatively, download and unzip the `.zip` file) into a dedicated folder.
 1. Open your editor of choice, navigate to this folder, and open the `systems_check.py` script.
 1. If using VS Code, make sure you can run python scripts from within the environment by clicking the green triangle in the top right corner. In IDLE you can do this by going to the `Run...` menu and selecting `Run Module`, or by pressing `F5`.
 1. Run the `systems_check.py` script. If it fails with any errors, make sure those are fixed before coming to the workshop. The output should be a picture like this: ![Systems Check Output](systems_check.png)
+1. Make sure you can access the python REPL (shell). You can do this by going to your terminal/command prompt window and just typing `python`. You should see a few lines of output with the current python version, and then a prompt that looks like `>>>`. If the version is less than `3.6` you might have to type `python3` instead of `python`. Exit the REPL by typing `CTRL+Z` on a windows or `CTRL+D` on a mac/linux, or by typing `quit()` and pressing enter.
 
 
 ## About Me
