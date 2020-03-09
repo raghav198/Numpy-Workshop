@@ -7,8 +7,8 @@ To run NumPy code, you will need:
 
 Files included in this repository that we will use:
 1. `systems_check.py` - Run this script before the workshop to check if you have everything installed properly.
-1. `skeleton.py` - We will fill this out during the workshop
-1. `completed.py` - A completed version of the skeleton code, for your reference after the workshop.
+1. `outliers_skeleton.py` - Skeleton code for the project. We will fill this out during the workshop
+1. `outliers.py` - A completed version of the outlier detection code, for your reference after the workshop.
 1. `noisy_data.txt` - Sample data for the outlier detection project
 
 ## Setup
